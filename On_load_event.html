@@ -1,0 +1,15 @@
+<!-- On load  event in js-->
+<!DOCTYPE html> 
+<html> 
+<body> 
+<h1>HTML DOM Events</h1> 
+<h2>The onload Event</h2> 
+<p>Assign an onload event to an iframe element.</p> 
+<iframe id="myFrame" src="/default.asp"></iframe> 
+<p id="demo"></p> 
+<script> 
+document.getElementById("myFrame").onload = function() 
+{myFunction()}; function myFunction() { document.getElementById("demo").innerHTML = "Iframe is loaded."; } 
+</script> 
+</body> 
+</html> 
